@@ -15,15 +15,6 @@ Estará compuesta por de perfiles laborales, con la mayor información posible p
     - Herramientas que maneja
     - Descripción personal del perfil (si la tiene)
     
-**Herramientas a utilizar:**
-
-    - Python
-        * Pandas
-    - Linkedin API
-    - Web Scraping
-    - Base de Datos
-        * SQL o mongo
-    - PowerBI
         
 ### Propuesta 2:
 
@@ -99,3 +90,14 @@ H2B2 es una compañía de base tecnológica, constituida en 2016 y presente en E
 4. Analizar la venta (cantidad a ser posible) de cosméticos por retailer en españa.
 
 
+**Herramientas a utilizar:**
+
+    - Python
+        * Pandas
+    - Linkedin API
+    - Web Scraping
+        * BeautifulSoup
+        * Selenium
+    - Base de Datos
+        * SQL o mongo
+    - PowerBI
