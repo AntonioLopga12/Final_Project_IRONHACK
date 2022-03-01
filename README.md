@@ -18,11 +18,11 @@ Estará compuesta por de perfiles laborales, con la mayor información posible p
 **Herramientas a utilizar:**
 
     - Python
-        - Pandas
+        * Pandas
     - Linkedin API
     - Web Scraping
     - Base de Datos
-        - SQL o mongo
+        * SQL o mongo
     - PowerBI
         
 ### Propuesta 2:
