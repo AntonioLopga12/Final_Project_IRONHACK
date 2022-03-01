@@ -80,7 +80,7 @@ Teniendo en cuenta los ultimos aconteciemtos del panorama actual, como por ejemp
 
 Siendo el hidrógeno un producto que puede ser obtenenido en local daría una mayor independencia energética al país.
 
-H2B2 es una compañía de base tecnológica, constituida en 2016 y presente en Estados Unidos y España. Aporta dos décadas de experiencia en la producción, el procesamiento y el desarrollo de tecnología de hidrógeno. Proporciona Innovación, Diseño, Ingeniería, Fabricación, Integración, Financiamiento y O&M para sistemas modulares de producción de hidrógeno, usando electrólisis de agua. No solo una empresa de productos, con flexibilidad y capacidades de soluciones Ad Hoc. Sólidos antecedentes en ingeniería y financiación de proyectos. 
+**H2B2** es una compañía de base tecnológica, constituida en 2016 y presente en Estados Unidos y España. Aporta dos décadas de experiencia en la producción, el procesamiento y el desarrollo de tecnología de hidrógeno. Proporciona Innovación, Diseño, Ingeniería, Fabricación, Integración, Financiamiento y O&M para sistemas modulares de producción de hidrógeno, usando electrólisis de agua. No solo una empresa de productos, con flexibilidad y capacidades de soluciones Ad Hoc. Sólidos antecedentes en ingeniería y financiación de proyectos. 
 
 
 ### Propuesta 4:
