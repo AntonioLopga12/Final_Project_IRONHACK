@@ -3,19 +3,34 @@
 
 ### GUIÓN:
 
-Hydrogen is the most abundant element in the universe, on Earth we can find it in different chemical compositions, such as natural gas[3], petrol,coal and water. Through the different techniques we extract the H2 from them. Hydrogen demand has grown more than threefold since 1975 and continue rising. Is almost entirely supplied from fossil fuels, with 6% of global natural gas and 2% of global coal going to hydrogen production.[4] 
+Hydrogen is the most abundant element in the universe. On Earth Hydrogen is found in great quantities but mainly combined with other elements, finding it in sustances such as in water and Natural Gas, but it is barely present in our atmosphere, which contains just 0.00005%. This is why, to obtain hydrogen in the gaseous form, it must be produced through extraction from the molecules that contain it and it must be stored.[20]
 
-Nearly all of the hydrogen produced is used for refining petroleum, treating metals, producing fertilizer, and processing foods. U.S. petroleum refineries use hydrogen to lower the sulfur content of fuels. NASA began using liquid hydrogen in the 1950s as a rocket fuel, and one of the firsts to use hydrogen fuel cells to power the electrical systems on spacecraft.[7] 
+Hydrogen demand has grown more than threefold since 1975 and continue rising. Is almost entirely supplied from fossil fuels, with 6% of global natural gas and 2% of global coal going to hydrogen production.[4]
+**plot 1**Hydrogen deman through the years: **DATA** download as a csv.
+
+Nearly all of the hydrogen produced is used for refining petroleum, treating metals, producing fertilizer, and processing foods. Petroleum refineries use hydrogen to lower the sulfur content of fuels. NASA began using liquid hydrogen in the 1950s as a rocket fuel, and one of the firsts to use hydrogen fuel cells to power the electrical systems on spacecraft.[7]
+[FUEL AND ROCKET IMAGE]
 
 Most of hydrogen produced comes from natural gas. The technique used to extract the H2, its called, Steam Methane Reforming (SMR), that involves high-temperature steam (700°C–1,000°C) and methane that is obtained from naural gas[8], this process coproduces carbon dioxide, and emits air Greenhouse Gas (GHG).[9] 
+[SMR IMAGE]
 
-Another example, According to Hybrit’s research, a blast furnace emits 1,600 kgCO2 from the combustion of coking coal and oil to produce one ton of crude steel.[11]
+Another source of hydrogen as mentioned before is coal, that through a process we can obtain hydrogen. According to Hybrit’s research, a blast furnace emits 1,600 kgCO2 from the combustion of coking coal and oil to produce one ton of crude steel.[11]
+[COKING IMAGE]
 
-The European Green Deal, approved 2020, is a set of policy initiatives by the European Commission with the overarching aim of making the European Union (EU) climate neutral in 2050 [10], this is one of the policies and economic  that are been aprooved in order to stop harmful enviromental emissions for the greater good and future generations.
+These are the cheap and most pullutant ways of obtaining H2.
 
-“Green hydrogen”, “blue hydrogen” and “turquoise hydrogen” are GHG emissions-free or are characterised by lower GHG emissions-intensity, whereas “grey hydrogen” is GHG emissions-intensive. Nowadays, most of the hydrogen production (>90%) is “grey hydrogen”[12][show the hydrogen calssification image]
+Nowadays, most of the hydrogen production (>90%) is “grey hydrogen” [12][show the hydrogen calssification image]
 
-As mentioned we can obtain Hydrogen from a very abundant material on earth, thai is... guess???? Water, yes! with zero GMG emissions through the electrolisis a very simple process[show electrolisis image process, and explain the process],where we separate the Oxigen from the Hidrogen, and storage saftly. 
+“Green hydrogen”, “blue hydrogen” and “turquoise hydrogen” are GHG emissions-free or are characterised by lower GHG emissions-intensity.[12][show the hydrogen calssification image]
+
+The European Green Deal, approved 2020, is a set of policy initiatives by the European Commission with the overarching aim of making the European Union (EU) climate neutral by 2050 [10], this is one of the policies and economic plans that are been aprooved by most economic powers in order to stop harmful enviromental emissions.
+
+
+
+As mentioned we can obtain Hydrogen from an abundant sustance on earth, thai is... guess???? Water, yes! with zero GMG emissions inthe production process. The actual method to obtained is through electrolisis, a very simple process ,where Oxigen get separated from the Hidrogen, and storage saftly. 
+[show electrolisis image process, and explain the process]
+
+
 If not produced at the consumption site, hydrogen needs to be transported and stored to eventually be delivered to final users. Different means of transportation are available: 
 
     * Pipelines: used to transport either gaseous hydrogen or hydrogen converted into ammonia;
@@ -24,16 +39,38 @@ If not produced at the consumption site, hydrogen needs to be transported and st
 
 Based on the distances and volumes of hydrogen, transport costs can widely vary. Newly built pipelines are widely assumed to be the cheapest method to transport hydrogen per unit transported.[13] 
 
-As mentioned before hydrogen is used mostly in oil refining[SMR], treating metals [Pulverized Coal (PC),Oil,NG][15], food process [use hydrogen to make hydrogenated vegetable oils such as margarine and butter][16]and the production of fertilisers [17]. For it to make a significant contribution to clean energy transitions, it also needs to be adopted in sectors where it is almost completely absent at the moment, such as transport, buildings and power generation.[14]
+As mentioned before hydrogen is used mostly in oil refining[SMR], treating metals [Pulverized Coal (PC),Oil,NG][15], food process [use hydrogen to make hydrogenated vegetable oils such as margarine and butter][16] and the production of fertilisers [17]. 
+For it to make a significant contribution to clean energy transitions, it also needs to be adopted in sectors where it is almost completely absent at the moment, such as transport, buildings and power generation.[14]
+**Plot 2 - H2 demand by industry**
 
 
-There is an important application of hydrogen in the transportation industry, through the use of fuel cells. Basically system has tow inputs Hydrogen and oxigen, through the technique known as catalysis, the H2 is separated into electrons and protons, the electrons will be driven by a circuit that produces energy. The protones and electrons from the H2 join the oxigen and produce water as waste.[18] 
+There is an important application of hydrogen in the transportation industry, through the use of fuel cells. Basically the system has tow elements inputs Hydrogen and oxigen, through the technique known as catalysis, the H2 is separated into electrons and protons, the electrons will be driven by a circuit that produces energy. The protones and electrons from the H2 join the oxigen and produce water as waste.[18]
+**Bar plot 3 of cars in market** 
+Korea,United States,China,Japan,Europe,Rest of the world, 2017,0.100,3.531,0.051,2.300,1.186,0.018 2018,0.900,5.899,1.791,2.926,1.418,0.018 2019,5.083,8.039,6.178,3.633,2.184,0.097 2020,10.093,9.252,8.443,4.200,2.667,0.149 June 2021,14.563,11.124,8.443,5.596,3.076,0.341
+**source** https://www.iea.org/reports/hydrogen
 
-**Market**
+#### Market
 
-1. Hydrogen demand trhough the years: **Plot** data/hydro_demand.csv
 
-2. Hydrogen Market, main competitiors:[10]
+
+1. **Bar plot 3** Global installed electrolysis capacity by region , 2015-2020
+
+Europe	China	Canada	Rest of Asia	Rest of world2015	59.52	1.63	2.07	36.25	65.572016	62.69	1.63	2.07	36.44	66.982017	62.46	1.73	2.34	37.85	68.422018	78.05	1.84	2.37	38.82	73.262019	99.14	5.91	5.37	40.46	74.722020	116.36	23.47	25.37	50.53	74.95
+
+**source** https://www.iea.org/reports/hydrogen
+
+
+2. **Plot 4** Actual types of Hydrogen by price- Plot from [IEA]
+
+3. When will Hydrogen become cost effective?
+
+https://www.arup.com/perspectives/when-will-hydrogen-become-a-cost-competitive-industry
+**plot 5 del coste de Co2 por pais** esta en la pagina de arriba
+
+
+4. Estas son las principales empresas en el mercado del hydrogeno: 
+
+    Hydrogen Market, main competitiors:[10]
 
     * Hydrogen producers and electrolyser technologies 
         - Mcphy energy [EPA]-Frnacia - €
@@ -59,42 +96,36 @@ There is an important application of hydrogen in the transportation industry, th
         - Toyota
         - Weichai Power
 
-
-Potecial companies: 
+ 
+5. Para poder observar relaciones en el mercado nos centraremos en aquellas empresas que su principal producto o servicio sea directamente el hydrogeno. 
 
 - Mcphy energy 
 - Nel asa
 - ITM power
 - Plug Power
-        
-        
+
+**plot 6 la evolucion de la empresas** 
+
+En este plot haremos dos comentarios sobre observaciones en el comportamineto de las empresas, que un evento haya tenido repercusion en el sector, para poder tenerlo en cuenta a la hora de saber que eventos pueden ser mas perjudiciales o favorecedores.
 
 
-    1. Que mercado se encuentran cada una y cuak es el mas representativo? 
-        - La que mas datos tenga 
+Noticias Inversion en Hidrogeno:
 
-    2. Cuanta de su produccion de la compañia es destinada un 50% al H2?
-        - Porcentaje representativo 
-        
-      **Quedarme con 5 mas menos.**
-    3. Una vez que tenga las empresas objetivo,... Ver si entre ellas se relacionan e
-    
-    4. Ver como reaccionan los empresas a eventos particulares, covid,guerra ucrania...
-    
-    
+**source** https://www.rechargenews.com/energy-transition/-green-hydrogen-is-now-competitive-with-fossil-fuels-arcelormittal-among-offtakers-at-massive-7-4gw-project-in-spain/2-1-1169455
+
+
+**Conclusion**
+
+[Corregir y COMPLETAR]
+
+Ee interesante es tener en cuenta el mercado de hidrógeno actualmente está basado en la obtención de este elemento principalmente de combustibles fósiles, que contaminan [], Actualmente Y el hidrógeno no es tratado como un commoditie, ya que las empresas que venden el hidrógeno lo tienen no del agua del gasoil Toural y el carbón principalmente, y esto quiere decir que si los actuales gobiernos quieren cumplir con la agenda 2050 de reducir las emisiones cero Europa con Estados Unidos, deberán de obtener hidrógeno verde, Jesús Bisbal puente es el agua y la obtenemos mediante la electrolisis. Estas empresas llegar a un punto en el que tendrán que tomar la decisión que hacen el hidrógeno de una forma sostenible. Durante este proceso de reducción de emisiones el ecosistema del hidrógeno verde se verá altamente beneficiado.
+Comapartir gráficos de power ni con power point 
+
+
 
 
 [19]https://citywire.com/funds-insider/news/david-stevenson-clean-energy-attractive-but-valuations-scary/a1466489
 [10 Countries Moving Toward a Green Hydrogen Economy] **source** https://www.greentechmedia.com/articles/read/10-countries-moving-towards-a-green-hydrogen-economy
-
-
-3. Stock value history plot combination: 
-4. Petrol and Gas prices history 
-5. Plot the Petro-Gas prices with Companies, see relations.
-
-
-
-
 
 
 
@@ -141,7 +172,7 @@ The main hydrogen countries production its focus in USA, Japan, China, Korea, Ne
 2. [IMPORTANT] what events does affect the hydrogen industry for good and bad??
 
 
-
+[20]**source** https://energies.airliquide.com/resources/planet-hydrogen-hydrogen
 [19]**source** https://citywire.com/funds-insider/news/david-stevenson-clean-energy-attractive-but-valuations-scary/a1466489
 [18]**source** https://www.twi-global.com/technical-knowledge/faqs/what-is-a-hydrogen-fuel-cell#HowDoesAHydrogenFuelCellWork
 [18.1]**source** https://www.youtube.com/watch?v=a4pXAmljdUA
