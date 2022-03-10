@@ -1,0 +1,1391 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='hydro_demand' inline='true' name='federated.1waqa091ewtpqu1c3ktzd0b79397' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hydro_demand' name='textscan.0toimxw1w8gel91fz5vtn125dka8'>
+            <connection class='textscan' directory='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/data' filename='hydro_demand.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0toimxw1w8gel91fz5vtn125dka8' name='hydro_demand.csv' table='[hydro_demand#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='years' ordinal='0' />
+            <column datatype='real' name='refining' ordinal='1' />
+            <column datatype='real' name='Amonia' ordinal='2' />
+            <column datatype='real' name='Other' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0toimxw1w8gel91fz5vtn125dka8' name='hydro_demand.csv' table='[hydro_demand#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='years' ordinal='0' />
+            <column datatype='real' name='refining' ordinal='1' />
+            <column datatype='real' name='Amonia' ordinal='2' />
+            <column datatype='real' name='Other' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[hydro_demand.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[years]</local-name>
+            <parent-name>[hydro_demand.csv]</parent-name>
+            <remote-alias>years</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>refining</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[refining]</local-name>
+            <parent-name>[hydro_demand.csv]</parent-name>
+            <remote-alias>refining</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amonia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Amonia]</local-name>
+            <parent-name>[hydro_demand.csv]</parent-name>
+            <remote-alias>Amonia</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other]</local-name>
+            <parent-name>[hydro_demand.csv]</parent-name>
+            <remote-alias>Other</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Amonia]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Other]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='hydro_demand.csv' datatype='table' name='[__tableau_internal_object_id__].[hydro_demand.csv_E49F289DF73C4E5DB37167E3C78EB059]' role='measure' type='quantitative' />
+      <column caption='Refining' datatype='real' name='[refining]' role='measure' type='quantitative' />
+      <column caption='Years' datatype='date' name='[years]' role='dimension' type='quantitative' />
+      <column-instance column='[Amonia]' derivation='Sum' forecast-column-base='[sum:Amonia:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Amonia:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other]' derivation='Sum' forecast-column-base='[sum:Other:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Other:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[refining]' derivation='Sum' forecast-column-base='[sum:refining:qk]' forecast-column-type='forecast-value' name='[fVal:sum:refining:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Amonia]' derivation='Sum' name='[sum:Amonia:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other]' derivation='Sum' name='[sum:Other:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[refining]' derivation='Sum' name='[sum:refining:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[sum:Amonia:qk]&quot;</bucket>
+            </map>
+            <map to='#5b6570'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:refining:qk]&quot;</bucket>
+            </map>
+            <map to='#5b8cb8'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Amonia:qk]&quot;</bucket>
+            </map>
+            <map to='#7dc370'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Other:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[sum:refining:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[sum:Other:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='hydro_demand.csv' id='hydro_demand.csv_E49F289DF73C4E5DB37167E3C78EB059'>
+            <properties context=''>
+              <relation connection='textscan.0toimxw1w8gel91fz5vtn125dka8' name='hydro_demand.csv' table='[hydro_demand#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' date-parse-format='yyyy' name='years' ordinal='0' />
+                  <column datatype='real' name='refining' ordinal='1' />
+                  <column datatype='real' name='Amonia' ordinal='2' />
+                  <column datatype='real' name='Other' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (GHE_2000)' inline='true' name='federated.1kw455j1ox9yp415q8tr805rbxii' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GHE_2000' name='excel-direct.071i0ft07i0pce1bpdf0h1871lo2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/data/GHE_2000.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.071i0ft07i0pce1bpdf0h1871lo2' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I22:no:A1:I22:0' header='no' outcome='2'>
+            <column datatype='integer' date-parse-format='yyyy' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.071i0ft07i0pce1bpdf0h1871lo2' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I22:no:A1:I22:0' header='no' outcome='2'>
+            <column datatype='integer' date-parse-format='yyyy' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I22:no:A1:I22:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Years' datatype='integer' name='[F1]' role='dimension' type='quantitative' />
+      <column caption='Coal' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <column caption='Oil' datatype='string' name='[F3]' role='dimension' type='nominal' />
+      <column caption='Natural Gas' datatype='string' name='[F4]' role='dimension' type='nominal' />
+      <column caption='Wate' datatype='string' name='[F5]' role='dimension' type='nominal' />
+      <column caption='Industrial process' datatype='string' name='[F6]' role='dimension' type='nominal' />
+      <column caption='Methane' datatype='string' name='[F7]' role='dimension' type='nominal' />
+      <column caption='Nitrous oxide' datatype='string' name='[F8]' role='dimension' type='nominal' />
+      <column caption='CO2 from flaring' datatype='string' name='[F9]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_08FDAB44B9854455A7FEF620D5E28493]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_08FDAB44B9854455A7FEF620D5E28493'>
+            <properties context=''>
+              <relation connection='excel-direct.071i0ft07i0pce1bpdf0h1871lo2' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I22:no:A1:I22:0' header='no' outcome='2'>
+                  <column datatype='integer' date-parse-format='yyyy' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (hydrogen_industry_percentage_2018)' inline='true' name='federated.061kn2e1c4e1tg1aa69e40bulo62' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hydrogen_industry_percentage_2018' name='excel-direct.1mf9an41ft7isy1c7xyy30fa74gq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/data/hydrogen_industry_percentage_2018.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1mf9an41ft7isy1c7xyy30fa74gq' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B4:no:A1:B4:0' header='yes' outcome='2'>
+            <column datatype='string' name='Industry' ordinal='0' />
+            <column datatype='real' name='Percentage' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1mf9an41ft7isy1c7xyy30fa74gq' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B4:no:A1:B4:0' header='yes' outcome='2'>
+            <column datatype='string' name='Industry' ordinal='0' />
+            <column datatype='real' name='Percentage' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B4:no:A1:B4:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_4577170FB48045B1AB997A6EF233CF16]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Percentage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_4577170FB48045B1AB997A6EF233CF16]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_4577170FB48045B1AB997A6EF233CF16]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_4577170FB48045B1AB997A6EF233CF16'>
+            <properties context=''>
+              <relation connection='excel-direct.1mf9an41ft7isy1c7xyy30fa74gq' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B4:no:A1:B4:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Industry' ordinal='0' />
+                  <column datatype='real' name='Percentage' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='annual-co2-emissions-per-country' inline='true' name='federated.15d38ga1nampr2199yjfu1ac6p56' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='annual-co2-emissions-per-country' name='textscan.09wixqd0m6n2m71f6hf3l1emn3b5'>
+            <connection class='textscan' directory='/Users/antoniolopez/Downloads' filename='annual-co2-emissions-per-country.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09wixqd0m6n2m71f6hf3l1emn3b5' name='annual-co2-emissions-per-country.csv' table='[annual-co2-emissions-per-country#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Annual CO2 emissions' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.09wixqd0m6n2m71f6hf3l1emn3b5' name='annual-co2-emissions-per-country.csv' table='[annual-co2-emissions-per-country#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Annual CO2 emissions' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[annual-co2-emissions-per-country.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[annual-co2-emissions-per-country.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[annual-co2-emissions-per-country.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[annual-co2-emissions-per-country.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual CO2 emissions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual CO2 emissions]</local-name>
+            <parent-name>[annual-co2-emissions-per-country.csv]</parent-name>
+            <remote-alias>Annual CO2 emissions</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' hidden='true' name='[Code]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Entity]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='annual-co2-emissions-per-country.csv' datatype='table' name='[__tableau_internal_object_id__].[annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='annual-co2-emissions-per-country.csv' id='annual-co2-emissions-per-country.csv_0D20FCE16D2F48E288B7D6F8D4E142BE'>
+            <properties context=''>
+              <relation connection='textscan.09wixqd0m6n2m71f6hf3l1emn3b5' name='annual-co2-emissions-per-country.csv' table='[annual-co2-emissions-per-country#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='string' name='Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='integer' name='Annual CO2 emissions' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (tax_CO2_2021)' inline='true' name='federated.1boueg90n5oemy1b0b2m50upxatm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tax_CO2_2021' name='excel-direct.11gt0i01jaavdl11xj8zc0azgzjc'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/data/tax_CO2_2021.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.11gt0i01jaavdl11xj8zc0azgzjc' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B22:no:A1:B22:0' header='yes' outcome='6'>
+            <column datatype='string' name='Countries' ordinal='0' />
+            <column datatype='integer' name='US$/METRIC TON CO2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.11gt0i01jaavdl11xj8zc0azgzjc' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B22:no:A1:B22:0' header='yes' outcome='6'>
+            <column datatype='string' name='Countries' ordinal='0' />
+            <column datatype='integer' name='US$/METRIC TON CO2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B22:no:A1:B22:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Countries</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Countries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Countries</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9A257B08C83E47ECA4D16DF0CC889DE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>US$/METRIC TON CO2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[US$/METRIC TON CO2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>US$/METRIC TON CO2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9A257B08C83E47ECA4D16DF0CC889DE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Us$/Metric Ton Co2' datatype='integer' name='[US$/METRIC TON CO2]' role='measure' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_9A257B08C83E47ECA4D16DF0CC889DE3]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='ordinal' measure-ordering='ordinal' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_9A257B08C83E47ECA4D16DF0CC889DE3'>
+            <properties context=''>
+              <relation connection='excel-direct.11gt0i01jaavdl11xj8zc0azgzjc' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B22:no:A1:B22:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Countries' ordinal='0' />
+                  <column datatype='integer' name='US$/METRIC TON CO2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='CO2 GHE'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Emisiones globales de CO2 de los combustibles fósiles:</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-co2-emissions-per-country' name='federated.15d38ga1nampr2199yjfu1ac6p56' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15d38ga1nampr2199yjfu1ac6p56'>
+            <column datatype='integer' name='[Annual CO2 emissions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual CO2 emissions]' derivation='Sum' name='[sum:Annual CO2 emissions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15d38ga1nampr2199yjfu1ac6p56].[sum:Annual CO2 emissions:qk]</rows>
+        <cols>[federated.15d38ga1nampr2199yjfu1ac6p56].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{137909D6-01ED-44D9-9528-2AF0F7CCFFB6}' />
+    </worksheet>
+    <worksheet name='CO2 TAX'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Impuesto en $/por tonelada métrica de CO2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (tax_CO2_2021)' name='federated.1boueg90n5oemy1b0b2m50upxatm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1boueg90n5oemy1b0b2m50upxatm'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Us$/Metric Ton Co2' datatype='integer' name='[US$/METRIC TON CO2]' role='measure' type='ordinal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[US$/METRIC TON CO2]' derivation='Sum' name='[sum:US$/METRIC TON CO2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[US$/METRIC TON CO2]' derivation='Sum' name='[sum:US$/METRIC TON CO2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1boueg90n5oemy1b0b2m50upxatm].[none:Countries:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:qk]' value='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' />
+            <format attr='text-format' field='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:ok]' value='c#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:ok]' />
+              <text column='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1boueg90n5oemy1b0b2m50upxatm].[none:Countries:nk]</rows>
+        <cols>[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:qk]</cols>
+      </table>
+      <simple-id uuid='{A2A7CD7A-667F-4360-9F42-0692E6475F78}' />
+    </worksheet>
+    <worksheet name='H2 Demand'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Bold'>Historico de la demanda de H2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='hydro_demand' name='federated.1waqa091ewtpqu1c3ktzd0b79397' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1waqa091ewtpqu1c3ktzd0b79397'>
+            <column datatype='real' name='[Amonia]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Other]' role='measure' type='quantitative' />
+            <column-instance column='[Amonia]' derivation='Sum' forecast-column-base='[sum:Amonia:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Amonia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other]' derivation='Sum' forecast-column-base='[sum:Other:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Other:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[refining]' derivation='Sum' forecast-column-base='[sum:refining:qk]' forecast-column-type='forecast-value' name='[fVal:sum:refining:qk]' pivot='key' type='quantitative' />
+            <column caption='Refining' datatype='real' name='[refining]' role='measure' type='quantitative' />
+            <column-instance column='[Amonia]' derivation='Sum' name='[sum:Amonia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other]' derivation='Sum' name='[sum:Other:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[refining]' derivation='Sum' name='[sum:refining:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[years]' derivation='Year-Trunc' name='[tyr:years:ok]' pivot='key' type='ordinal' />
+            <column caption='Years' datatype='date' name='[years]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Other:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:refining:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Amonia:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Other:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:refining:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1waqa091ewtpqu1c3ktzd0b79397].[fVal:sum:Amonia:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1waqa091ewtpqu1c3ktzd0b79397].[Multiple Values]</rows>
+        <cols>[federated.1waqa091ewtpqu1c3ktzd0b79397].[tyr:years:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='false' />
+      </table>
+      <simple-id uuid='{76516AB7-36D7-46C3-8DAF-4BAF81A81D4E}' />
+    </worksheet>
+    <worksheet name='Uso H2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Bold' fontsize='11'>Uso de Hidrogeno</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontname='Tableau Bold' fontsize='11'> por aplicacion:</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (hydrogen_industry_percentage_2018)' name='federated.061kn2e1c4e1tg1aa69e40bulo62' />
+          </datasources>
+          <datasource-dependencies datasource='federated.061kn2e1c4e1tg1aa69e40bulo62'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Percentage]' derivation='Sum' name='[sum:Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[sum:Percentage:qk]' value='p0%' />
+            <format attr='font-weight' data-class='subtotal' value='bold' />
+            <format attr='font-size' data-class='subtotal' value='11' />
+            <format attr='color' data-class='subtotal' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='#000000' />
+            <format attr='font-size' data-class='subtotal' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='14' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='bold' />
+            <format attr='font-weight' data-class='total' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='normal' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='bold' />
+            <format attr='font-size' field='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' value='12' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#000000' />
+            <format attr='font-family' value='Symbol' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' />
+              <wedge-size column='[federated.061kn2e1c4e1tg1aa69e40bulo62].[sum:Percentage:qk]' />
+              <size column='[federated.061kn2e1c4e1tg1aa69e40bulo62].[sum:Percentage:qk]' />
+              <text column='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.9670165777206421' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8AD5DEA9-2262-4C30-A325-182F859C35B8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-orientation' id='dash-text_3' value='0' />
+          <format attr='vertical-align' id='dash-text_3' value='center' />
+          <format attr='text-align' id='dash-text_3' value='center' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97878' id='1' is-scaled='1' param='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/images/nasa-rTZW4f02zY8-unsplash.jpg' type-v2='bitmap' w='98666' x='667' y='1061'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='54' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97878' id='53' param='vert' type-v2='layout-flow' w='98666' x='667' y='1061'>
+                <zone fixed-size='280' h='97878' id='1' is-fixed='true' is-scaled='1' param='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/images/nasa-rTZW4f02zY8-unsplash.jpg' type-v2='bitmap' w='98666' x='667' y='1061'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4328C3F6-E544-4219-B9AF-CC9522962975}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='65' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='60' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='22' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='98000' id='17' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                  <zone h='98000' id='9' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                    <zone h='98000' id='7' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                      <zone h='98000' id='41' is-centered='0' type-v2='bitmap' w='98400' x='800' y='1000'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='36000' id='5' name='H2 Demand' w='67700' x='1200' y='30750' />
+        <zone h='30625' id='20' name='Uso H2' w='17500' x='23600' y='1125' />
+        <zone forceUpdate='true' h='25125' id='25' type-v2='text' w='25800' x='43500' y='3250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Algunas aplicaciones del Hidrogeno:</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Principalmente:</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Refinación de petróleo, </run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Amoníaco (fertilizates)</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Procesamiento de metales</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Otros:</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Cohetes  (motores de combustion externa)</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Enfriamiento de generadores</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>- Procesamiento de Alimentos</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='25750' id='30' type-v2='text' w='20800' x='1900' y='2500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#202124' fontname='arial,sans-serif' fontsize='11'>Total de hidrocarburos destinados </run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#202124' fontname='arial,sans-serif' fontsize='11'>a la produccion de H2 princimalment mediante </run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='11'>Reformado de Metano con Vapor (RMV):</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='14'>Gas Natural : 6% </run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='14'>Carbon: 2% </run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='31375' id='48' name='CO2 GHE' w='71100' x='1300' y='67250' />
+        <zone h='9750' id='49' name='H2 Demand' pane-specification-id='0' param='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]' type-v2='color' w='14000' x='43100' y='29625' />
+        <zone h='71875' id='63' name='CO2 TAX' w='27600' x='70800' y='24875' />
+        <zone h='21875' id='74' is-scaled='1' param='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/images/Screenshot 2022-03-09 at 22.30.52.png' type-v2='bitmap' w='29700' x='68400' y='1875' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='78' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='77' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='41' is-centered='0' is-fixed='true' type-v2='bitmap' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='245' h='30625' id='20' is-fixed='true' name='Uso H2' w='17500' x='23600' y='1125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='175' h='21875' id='74' is-fixed='true' is-scaled='1' param='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/images/Screenshot 2022-03-09 at 22.30.52.png' type-v2='bitmap' w='29700' x='68400' y='1875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='25750' id='30' type-v2='text' w='20800' x='1900' y='2500'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#202124' fontname='arial,sans-serif' fontsize='11'>Total de hidrocarburos destinados </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#202124' fontname='arial,sans-serif' fontsize='11'>a la produccion de H2 princimalment mediante </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='11'>Reformado de Metano con Vapor (RMV):</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='14'>Gas Natural : 6% </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='14'>Carbon: 2% </run>
+                    <run>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='25125' id='25' type-v2='text' w='25800' x='43500' y='3250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Algunas aplicaciones del Hidrogeno:</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Principalmente:</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Refinación de petróleo, </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Amoníaco (fertilizates)</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Procesamiento de metales</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Silom' underline='true'>Otros:</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Cohetes  (motores de combustion externa)</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Enfriamiento de generadores</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Tableau Bold'>- Procesamiento de Alimentos</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='71875' id='63' is-fixed='true' name='CO2 TAX' w='27600' x='70800' y='24875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36000' id='5' is-fixed='true' name='H2 Demand' w='67700' x='1200' y='30750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9750' id='49' name='H2 Demand' pane-specification-id='0' param='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]' type-v2='color' w='14000' x='43100' y='29625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='251' h='31375' id='48' is-fixed='true' name='CO2 GHE' w='71100' x='1300' y='67250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C930DACD-3BCA-4F58-A426-1E5CA8EDB837}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='13500' id='56' is-centered='0' type-v2='bitmap' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='55' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='54' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0712A59F-904C-4987-8A0D-8A7D5FA2C991}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='113'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{86050ED5-FB2C-49CE-80E0-73C2668497CE}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='CO2 GHE'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='CO2 TAX' />
+        <viewpoint name='H2 Demand'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Uso H2' />
+      </viewpoints>
+      <active id='41' />
+      <simple-id uuid='{66A5A859-FC52-4C87-B3DC-C8F3068A2CA8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 3'>
+      <viewpoints />
+      <active id='56' />
+      <simple-id uuid='{0ADDE98C-A434-41C6-885D-193060211C54}' />
+    </window>
+    <window class='worksheet' name='H2 Demand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1waqa091ewtpqu1c3ktzd0b79397].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6B5B919D-9840-4A28-8F73-E3A27EECA78F}' />
+    </window>
+    <window class='worksheet' name='Uso H2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.061kn2e1c4e1tg1aa69e40bulo62].[sum:Percentage:qk]' type='size' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.061kn2e1c4e1tg1aa69e40bulo62].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EB920A90-33F9-4B12-A51C-FEF43081283D}' />
+    </window>
+    <window class='worksheet' name='CO2 GHE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E765C932-D33E-4077-88E7-F92C85B70DB1}' />
+    </window>
+    <window class='worksheet' name='CO2 TAX'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1boueg90n5oemy1b0b2m50upxatm].[sum:US$/METRIC TON CO2:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85ECE7A2-3860-4732-8686-F8FFC4D0BC75}' />
+    </window>
+  </windows>
+</workbook>

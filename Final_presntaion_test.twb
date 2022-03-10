@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1!Hydro_product_million_tones_1 (hydro_production_through_years)' inline='true' name='federated.0b09opx1livhs51elgegb1jzmkwj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hydro_production_through_years' name='excel-direct.18t3t800kbhnq41fsd2uz1fn7sv1'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/antoniolopez/Documents/ironhack/IRON_proyects/Final_Project_IRONHACK/data/hydro_production_through_years.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.18t3t800kbhnq41fsd2uz1fn7sv1' name='Sheet1 Hydro_product_million_tones_1' table='[Sheet1$Hydro_product_million_tones_1]' type='table'>
+          <columns gridOrigin='A1:B16:no:A1:B16:0' header='yes' outcome='2'>
+            <column datatype='integer' name='years' ordinal='0' />
+            <column datatype='string' name='Mt/y' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.18t3t800kbhnq41fsd2uz1fn7sv1' name='Sheet1 Hydro_product_million_tones_1' table='[Sheet1$Hydro_product_million_tones_1]' type='table'>
+          <columns gridOrigin='A1:B16:no:A1:B16:0' header='yes' outcome='2'>
+            <column datatype='integer' name='years' ordinal='0' />
+            <column datatype='string' name='Mt/y' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1 Hydro_product_million_tones_1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B16:no:A1:B16:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[years]</local-name>
+            <parent-name>[Sheet1 Hydro_product_million_tones_1]</parent-name>
+            <remote-alias>years</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1$Hydro!product!million!tones!1_6FB02B88D75D4C55834A838C32A401B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mt/y</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mt/y]</local-name>
+            <parent-name>[Sheet1 Hydro_product_million_tones_1]</parent-name>
+            <remote-alias>Mt/y</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1$Hydro!product!million!tones!1_6FB02B88D75D4C55834A838C32A401B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1 Hydro_product_million_tones_1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1$Hydro!product!million!tones!1_6FB02B88D75D4C55834A838C32A401B2]' role='measure' type='quantitative' />
+      <column caption='Years' datatype='integer' name='[years]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1 Hydro_product_million_tones_1' id='Sheet1$Hydro!product!million!tones!1_6FB02B88D75D4C55834A838C32A401B2'>
+            <properties context=''>
+              <relation connection='excel-direct.18t3t800kbhnq41fsd2uz1fn7sv1' name='Sheet1 Hydro_product_million_tones_1' table='[Sheet1$Hydro_product_million_tones_1]' type='table'>
+                <columns gridOrigin='A1:B16:no:A1:B16:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='years' ordinal='0' />
+                  <column datatype='string' name='Mt/y' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1!Hydro_product_million_tones_1 (hydro_production_through_years)' name='federated.0b09opx1livhs51elgegb1jzmkwj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0b09opx1livhs51elgegb1jzmkwj'>
+            <column-instance column='[years]' derivation='Sum' name='[sum:years:qk]' pivot='key' type='quantitative' />
+            <column caption='Years' datatype='integer' name='[years]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0b09opx1livhs51elgegb1jzmkwj].[sum:years:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E23F5BF0-B00B-4153-8C72-15A4768FEFF3}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1FE715AC-2484-4D99-97E9-27E22F962A1D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FC4D7F42-0DD1-491A-960D-4D06F0492C80}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BEC3662B-E2C5-43C0-B34B-FC2EFB9BF052}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='48' name='Sheet 1' width='128'>
+      iVBORw0KGgoAAAANSUhEUgAAAIAAAAAwCAYAAADZ9HK+AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJAklEQVR4nO2ba0xT9xvHPy1bqwWCqBC56LwQvMQQsFOWOTfcvGDUBKMxuqgvUN80UcBo
+      nBkxmLBlczrHEp2DiBMR1JSgBPEGG5lRg5cYbwG1XriItdJasXJd+/u/WOhWT4Gi/rPAOZ93
+      Pc/lPO359nee33NalRBCoCBb1P91AQr/LYoAZI4iAJmjCEDmKAKQOYoAZI4iAJmjCEDmKAKQ
+      OYoAZI4iAJmjCEDmKAKQOYoAZI4iAJmjCEDmKAKQOYoAZI4iAJmjCEDmKAKQOYoAZI4iAJmj
+      CEDmKAKQOe/91wW8K9ra2vjzzz+pra3lyZMndHZ2EhYWxtixY/niiy94//33e81x7do1rly5
+      wq1btxgxYgRTpkxh+vTpBAQEvFFNr169orq6murqau7du4dOp2PUqFHMnj2bkJCQXuOdTieX
+      L1/mxo0bmEwmwsLC+Oijj4iPj0et7vm7+/DhQ86ePcu8efMYOXJkt36q/v7XsJaWFrKysjh1
+      6hSvXr3y6hMSEsKWLVv49NNPu82zZ88ecnNzJcfHjRvHnj17GDZsmM81OZ1ODh06RHZ2Nm1t
+      bRL7oEGDMBgMfPnll93maG5u5quvvuLSpUsS2+eff8727du9xpnNZrKzsyktLcXlcpGZmUli
+      YmK35+n3K0BTUxNFRUUEBQWRnJzMhx9+SGRkJDqdjvr6eoqLiykpKWHLli3s27ePCRMmSHL8
+      8ssv5ObmuoUydepU6uvr+e233zhz5gyrV6+moKAAnU7Xaz0tLS0kJydjMpkYNmwYSUlJxMXF
+      MXHiREwmE+fOneP06dPs2rWLkSNHMmPGDEkOq9XK2rVrqaurY+bMmSxfvpwJEyZgMpkoLS3F
+      4XBIYp4/f87+/fsxGo10dHT4/gGKfo7NZhNGo1G0tbV16/Prr78KvV4vduzYIbG9fPlSfPLJ
+      JyIhIUGYTCYPm9PpFGlpaUKv14ujR4/6VM+zZ8+EXq8XGzZsEHa73avP+fPnhV6vF6mpqV7t
+      O3fuFHq9Xnz//ffC6XT2es7GxkYxY8YModfrxezZs0VBQYE4cuSI0Ov14tSpUz3G9vsmMDg4
+      mMWLF6PVarv1WbhwIQB37tyR2MrKymhtbWXRokWMGzfOw6ZWq9mwYQMARqPRp3q0Wi3p6ens
+      3LmToKAgrz4ff/wxwcHB1NTUSGw2m42ioiLCw8PZuHFjr/d6gNbWVvz8/DAYDBw/fpzly5ej
+      0Wh8qrff3wJ84dGjRwBERUVJbKdPnwZgwYIFXmMjIyOJiYnhxo0bPHjwgLFjx/Z4rsDAQJKS
+      knr06ezspL29neDgYImtqKiI9vZ2li1b5tPF76qxpKSEwMBAn/z/Tb9fAXrDarWSlZUFQEJC
+      gsRuNpsJDQ3t8cJOnz7d7fsuyM3NpaWlhdjYWInt/v37AMyfP9/nfBqN5o0uPgzgFcDhcFBW
+      VkZ+fj6NjY2sX7+eadOmefgIIbBarURHR/eYa/jw4cDfDefbIIQgJyeHnJwcAgMDWbNmjcSn
+      sbGRIUOGEBQUhNVqpaamBpPJhFarZfz48cTFxb1VDa8zYATQ2NhIdnY2TU1NWCwWGhoa6Ojo
+      IDo6mm+//ZY5c+ZIYux2O3/99VevW7yupfptBGC1Wtm6dStVVVUEBQWxe/duQkNDJX6PHz+m
+      tbUVg8HAlStXcLlcHvb4+Hi+/vprwsPD37iWfzNgBNDS0kJpaankeFxcHCNGjOg2BmDw4ME9
+      5u7a/nU3Z+iNyspKMjMzsdvtTJo0ie+++87rBWxvb+fFixcA3Lx5k8TERGJjY4mKiqK2tpZ9
+      +/ZRVVXFpk2bOHDgAO+99/aXb8AIICoqisrKSux2OzabjdraWv744w+Ki4s5cuQIK1asICUl
+      BZVK5Y7p+mbb7fYec3fZhw4d2qeaXC4Xu3btorCwEJVKxcqVKzEYDN1OJTUaDVqtlrCwMPLy
+      8jzmDjExMcydO5fk5GRqamo4duwYS5Ys6VM93hhQTWBAQIC7a1+4cCE//vgjRqOR6Oho8vPz
+      +fnnnz38dTodOp0Om83WY94uuy/j2y5aW1tZt24dhYWFBAcHs3fvXlJSUnocSatUKsLCwnA4
+      HF6HThqNho0bNwJ/rxDvggElAG+Eh4eTk5ODVqvl5MmTiNcm3yEhIZjNZpxOZ7c5GhoagH+a
+      wd4QQpCRkUFVVRWhoaHk5OSg1+t9rtdqtXZ7u5k0aRLwz9b2bRnwAgDw9/cnLi6OpqYm6urq
+      PGxRUVE4HA4uXrzoNdblclFeXo6fnx+jR4/26XzFxcVUVFS4xedrHMAHH3yAEIITJ054tXc9
+      W+jLs4mekIUAAJ49e4ZarZYs44sWLQKgpKTEa9zly5exWCx89tlnPvUALpeLgwcPApCZmUlE
+      RESf6ly8eDFqtZrDhw9LdgBd9YD3odab0O8FsHnzZrZv387jx4+92oUQ7N27l/v37zN58mTJ
+      vTU+Pp7IyEh+//13jh496mF78uQJ27ZtA5A0XB0dHeTl5ZGXl4fFYnEfr66upr6+nlGjRhET
+      E9Pn9zN69Gjmzp1LXV0d6enpdHZ2um02m42srCz8/PyYNWtWn3N7o9/vApqbm6moqMBoNDJt
+      2jTGjBlDREQEGo2Gp0+fUl5eTm1tLQEBAWRkZEjiVSoV6enppKWl8cMPP3Dz5k1iY2Mxm82U
+      lZVhsVhISkpi6tSpHnFtbW3upnL8+PHuPX2XEJ8/f+5+jtAdWq2Wb775RjLyNRgM3L59mzNn
+      ztDQ0MDMmTNxuVwUFhZit9tZtWqVx/CqoKBA0hN0vT58+DBXr151H/f39yclJeWf9y9e74r6
+      GQ6Hg5MnT1JcXMzdu3cldrVaTWJiImvXru3xhxHXr19n06ZNHjsCPz8/li1bRmpqqsf2Ef6e
+      CSQkJCCEYPfu3cTHxwOQn5/PTz/95HP9Fy5c8PrgxuFwkJGRQWVlpfvYoEGDWLduHUuXLvWo
+      x2AweP3dgDdCQ0MpKytzv+73Avg3drsds9mMxWJxb6kiIiJ6HfR0IYTgwYMHVFdXExISQkxM
+      jM+x/y+am5u5desWgwcPJjo6Gn9//3eaf0AJQKHv9PsmUOHtUAQgc/4HN/jz+Wz3FjwAAAAA
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
