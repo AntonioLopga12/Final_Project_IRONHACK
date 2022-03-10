@@ -3,40 +3,52 @@
 
 
 
-**Análisis de Mercado**
+**1. Análisis del Mercado del Hidrogeno**
 
-Análizar la evolucion del valor tanto del precio como del la accion, del gas natural, petroleo (gasolina) y el hidrógeno. Identificar las causas de comportaminetos inusuales, así como ha afectado los ultimos eventos del coronaviros y el conflicto con Ucrania.
+
+En este proyecto, se realizará una análisis de la situación actual mercado del Hidrogeno, cuales son sus aplicaciones, principales metodos y consecuencias. 
 
 **Sector Gas y petróleo:**
 
-    - Obtener los datos evolutivos de precio del producto y la accion bursatil a nivel España, por principales empresas. 
+    - Obtener los datos evolutivos de precio del producto y la accion bursatil a nivel global, por principales empresas. 
     - Visualizar los datos 
     - Llevar a cabo un análisis de los datos
 
 
 **Sector Hidrógeno:**
 
-    - Obtener los datos del precio de la accion bursatil y la inversion a nivel España en empresas en el sector Hidrógeno (a           ser posible) 
+    - Obtener los datos del precio de la accion bursatil y la inversion a nivel global en empresas en el sector Hidrógeno (a           ser posible) 
     - Visualizar los datos
     - Llevar a cabo un análisis de los datos
 
-Una vez obtenidos los datos de los tres productos, ver el las posibles relaciones que pueda haber entre la subida del precio del gas y el petróleo con la subida de la demanda y precio del Hidrógeno. 
+
+**2. Una mirada a un futuro cercano: Hydrogeno Verde**
 
 
-Teniendo en cuenta los ultimos aconteciemtos del panorama actual, como por ejemplo, la pandemia del Covid 19, el actual conflito entre Rusia y Ucrania ademas de la tensión entre Europa y Rusia, analizar la evolucion del sector energético y aportar conclusiones que puedan dar una vision general del mercado en cuestión.
+Como principal objetivo, se estudiara la situacion actual del mercado del Hidrogeno verde, cuales son las oportunidades, su ecosistema.
 
-Siendo el hidrógeno un producto que puede ser obtenenido en local daría una mayor independencia energética al país.
+Cual es el apoyo, tanto del sectro publico como del sectro privado. 
+
+Se llevará acabo un anláisis objetivo y otro subjetivo del comportamiento del mercado del hidrógeno.
 
 
-**Herramientas a utilizar:**
+**3. Fuentes de informacion y obtencion de datos**
+
+Princiaples fuentes: 
+
+- International Energy Agency 
+- Hydrogen Council
+- United States Energy Department
+- Royal Society of Chemestry
+- Youtube
+- Yahoo Finance
+
+**4. Herramientas a utilizar:**
 
     - Python
         * Pandas
-    - Linkedin API
+    - Yfinance
     - Web Scraping
         * BeautifulSoup
         * Selenium
-    - Base de Datos
-        * SQL o mongo
-    - PowerBI
-
+    - Tableau

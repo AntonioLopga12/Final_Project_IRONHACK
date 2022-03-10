@@ -67,14 +67,19 @@ For it to make a significant contribution to clean energy transitions, it also n
 
 There is an important application of hydrogen in the transportation industry, through the use of fuel cells. Basically the system has tow elements inputs Hydrogen and oxigen, through the technique known as catalysis, the H2 is separated into electrons and protons, the electrons will be driven by a circuit that produces energy. The protones and electrons from the H2 join the oxigen and produce water as waste.[18]
 **Bar plot 3 of cars in market** 
-Korea,United States,China,Japan,Europe,Rest of the world, 2017,0.100,3.531,0.051,2.300,1.186,0.018 2018,0.900,5.899,1.791,2.926,1.418,0.018 2019,5.083,8.039,6.178,3.633,2.184,0.097 2020,10.093,9.252,8.443,4.200,2.667,0.149 June 2021,14.563,11.124,8.443,5.596,3.076,0.341
-**source** https://www.iea.org/reports/hydrogen
+
 
 
 
 ## NUDO
 
 #### Market
+
+Public initiatives:
+
+Private Initiatives:
+- Hydrogen Council inititive:
+- Investment 
 
 **posible plot** Produccion de energia renovable por pais historico[21]**posible plot**
 
@@ -95,7 +100,8 @@ to take place in the process  been able to scale its producction and be competit
 4. Estas son las principales Competidores en el mercado del hydrogeno: 
 
     Hydrogen Market, main competitiors:[10]
-
+    
+    
     * Hydrogen producers and electrolyser technologies 
         - Mcphy energy [EPA]-Frnacia - €
         - Nel asa - 
@@ -168,7 +174,10 @@ PLOTS:
 **source** PLOT 2 Hydrogen deman Through the yeras: https://www.iea.org/reports/hydrogen
 **source** PLOT 3 https://ourworldindata.org/co2-emissions
 **source** PLOT 4 CO2 TAX: https://www.statista.com/statistics/483590/prices-of-implemented-carbon-pricing-instruments-worldwide-by-select-country/
-[27]**SOURCE** https://hydrogencouncil.com/wp-content/uploads/2021/02/Hydrogen-Insights-2021-Report.pdf
+**source** PLOT 5 https://hypertextbook.com/facts/2001/DanielChen.shtml
+[29]**source** https://hydrogencouncil.com/en/newmembers-newcochair-july2021/
+[28]**SOURCE** Image https://hydrogencouncil.com/en/newmembers-newcochair-july2021/
+[27]**source** https://hydrogencouncil.com/wp-content/uploads/2021/02/Hydrogen-Insights-2021-Report.pdf
 [26]**source** https://www.iea.org/reports/hydrogen
 [25]**source** Energy related greenhouse gas emissions https://www.iea.org/data-and-statistics/charts/energy-related-greenhouse-gas-emissions-2000-2021
 [24]**source** Royal Society of Chemestry https://www.rsc.org/periodic-table/element/1/hydrogen
@@ -245,6 +254,9 @@ Refining	Industry	Transport	Power	Ammonia - fuel	Synfuels	Buildings	Grid injecti
 
 Europe	China	Canada	Rest of Asia	Rest of world2015	59.52	1.63	2.07	36.25	65.572016	62.69	1.63	2.07	36.44	66.982017	62.46	1.73	2.34	37.85	68.422018	78.05	1.84	2.37	38.82	73.262019	99.14	5.91	5.37	40.46	74.722020	116.36	23.47	25.37	50.53	74.95
 
+* Hydrogen fuel cell cars deployed:
+
+Korea,United States,China,Japan,Europe,Rest of the world, 2017,0.100,3.531,0.051,2.300,1.186,0.018 2018,0.900,5.899,1.791,2.926,1.418,0.018 2019,5.083,8.039,6.178,3.633,2.184,0.097 2020,10.093,9.252,8.443,4.200,2.667,0.149 June 2021,14.563,11.124,8.443,5.596,3.076,0.341
 
 
 Most hydrogen produced today in the United States is made via steam-methane reforming, a mature production process in which high-temperature steam (700°C–1,000°C) is used to produce hydrogen from a methane source, such as natural gas.structures[2]
